@@ -7,6 +7,60 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        // 개발자 도구 감지 및 보호
+        (function() {
+            // F12 키 감지
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+                    (e.ctrlKey && e.shiftKey && e.key === 'J') || (e.ctrlKey && e.key === 'U')) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            // 우클릭 메뉴 비활성화
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+                return false;
+            });
+
+            // 개발자 도구 감지
+            let devtools = {
+                open: false,
+                orientation: null
+            };
+
+            setInterval(function() {
+                const threshold = 160;
+                const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+                const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+                
+                if (widthThreshold || heightThreshold) {
+                    if (!devtools.open) {
+                        devtools.open = true;
+                        devtools.orientation = widthThreshold ? 'vertical' : 'horizontal';
+                        document.body.innerHTML = '<div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;"><h1>접근이 제한되었습니다</h1><p>개발자 도구 사용이 금지되어 있습니다.</p></div>';
+                    }
+                } else {
+                    devtools.open = false;
+                    devtools.orientation = null;
+                }
+            }, 500);
+
+            // 텍스트 선택 비활성화
+            document.addEventListener('selectstart', function(e) {
+                e.preventDefault();
+                return false;
+            });
+
+            // 드래그 비활성화
+            document.addEventListener('dragstart', function(e) {
+                e.preventDefault();
+                return false;
+            });
+        })();
+    </script>
 </head>
 <body>
     <!-- Navigation -->
