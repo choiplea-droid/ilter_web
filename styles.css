@@ -124,7 +124,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('/Users/choebada/Downloads/ILTER 홈페이지 사진/다운로드 (1).jpeg') center center;
+    background: url('다운로드 (1).jpeg') center center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
