@@ -124,7 +124,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('다운로드 (1).jpeg') center center;
+    background: url('hero-bg.jpeg') center center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
