@@ -1,10 +1,5 @@
 // 추가 보안 기능
 (function() {
-    // 콘솔 경고 메시지
-    console.log('%c경고!', 'color: red; font-size: 30px; font-weight: bold;');
-    console.log('%c이 브라우저 기능은 개발자만을 위한 것입니다.', 'color: red; font-size: 16px;');
-    console.log('%c누군가가 당신에게 이곳에 무언가를 복사하라고 했다면, 이는 사기입니다.', 'color: red; font-size: 16px;');
-    
     // 개발자 도구 추가 감지
     function detectDevTools() {
         const start = performance.now();
