@@ -1,0 +1,36 @@
+{
+  "name": "ilter-website",
+  "version": "1.0.0",
+  "description": "ILTER 공유오피스 공식 홈페이지 - 신촌역 초역세권 공유오피스",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static website - no build required'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "coworking",
+    "shared-office",
+    "shinchon",
+    "seoul",
+    "business",
+    "startup"
+  ],
+  "author": "ILTER Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muzip1/ilter_web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muzip1/ilter_web/issues"
+  },
+  "homepage": "https://ilter.co.kr",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
