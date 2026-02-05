@@ -75,13 +75,18 @@ hamburger.addEventListener('click', () => {
 });
 
 // 언어 버튼 클릭 및 초기 언어 적용 (기본: 한국어)
-document.addEventListener('DOMContentLoaded', () => {
+function initLanguage() {
     const savedLang = (typeof localStorage !== 'undefined' && localStorage.getItem('ilter-lang')) || 'ko';
     applyLanguage(savedLang);
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
     });
-});
+}
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLanguage);
+} else {
+    initLanguage();
+}
 
 // Close mobile menu when clicking on a link
 document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
