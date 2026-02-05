@@ -85,29 +85,33 @@
         <div class="nav-container">
             <div class="nav-logo">
                 <h2>ILTER</h2>
-                <span class="nav-subtitle">공유오피스</span>
+                <span class="nav-subtitle" data-i18n="nav.subtitle">공유오피스</span>
+            </div>
+            <div class="lang-switcher">
+                <button type="button" class="lang-btn active" data-lang="ko" title="한국어" aria-label="한국어">🇰🇷</button>
+                <button type="button" class="lang-btn" data-lang="en" title="English" aria-label="English">🇺🇸</button>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">홈</a>
+                    <a href="#home" class="nav-link" data-i18n="nav.home">홈</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">소개</a>
+                    <a href="#about" class="nav-link" data-i18n="nav.about">소개</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services" class="nav-link">업무공간</a>
+                    <a href="#services" class="nav-link" data-i18n="nav.services">업무공간</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#tenants" class="nav-link">입주업체</a>
+                    <a href="#tenants" class="nav-link" data-i18n="nav.tenants">입주업체</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#gallery" class="nav-link">갤러리</a>
+                    <a href="#gallery" class="nav-link" data-i18n="nav.gallery">갤러리</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#location" class="nav-link">위치</a>
+                    <a href="#location" class="nav-link" data-i18n="nav.location">위치</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">문의</a>
+                    <a href="#contact" class="nav-link" data-i18n="nav.contact">문의</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -122,11 +126,11 @@
     <section id="home" class="hero">
         <img src="hero-bg.jpeg" alt="ILTER 배경" class="hero-background">
         <div class="hero-content">
-            <h1 class="hero-title">초역세권 공유오피스</h1>
-            <p class="hero-subtitle">신촌역 6·7번 출구 도보 1분 거리<br>당신의 창의력을 키워줄 공간</p>
+            <h1 class="hero-title" data-i18n="hero.title">초역세권 공유오피스</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">신촌역 6·7번 출구 도보 1분 거리<br>당신의 창의력을 키워줄 공간</p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">문의하기</a>
-                <a href="#gallery" class="btn btn-secondary">둘러보기</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="hero.contactBtn">문의하기</a>
+                <a href="#gallery" class="btn btn-secondary" data-i18n="hero.galleryBtn">둘러보기</a>
             </div>
         </div>
     </section>
@@ -135,28 +139,28 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>ILTER 소개</h2>
-                <p>신촌역 초역세권에서 만나는 창의적인 비즈니스 공간</p>
+                <h2 data-i18n="about.title">ILTER 소개</h2>
+                <p data-i18n="about.subtitle">신촌역 초역세권에서 만나는 창의적인 비즈니스 공간</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>왜 ILTER인가요?</h3>
-                    <p>ILTER는 신촌역 6·7번 출구에서 도보 1분 거리의 초역세권 공유오피스입니다. 1·2·3·5인실부터 자유석·고정석까지 다양한 업무 공간을 제공하며, 창의적인 비즈니스 아이디어가 꽃피는 공간입니다.</p>
+                    <h3 data-i18n="about.why">왜 ILTER인가요?</h3>
+                    <p data-i18n="about.desc">ILTER는 신촌역 6·7번 출구에서 도보 1분 거리의 초역세권 공유오피스입니다. 1·2·3·5인실부터 자유석·고정석까지 다양한 업무 공간을 제공하며, 창의적인 비즈니스 아이디어가 꽃피는 공간입니다.</p>
                     <div class="features">
                         <div class="feature">
                             <i class="fas fa-wifi"></i>
-                            <h4>고속 인터넷</h4>
-                            <p>안정적인 고속 인터넷 환경</p>
+                            <h4 data-i18n="about.wifiTitle">고속 인터넷</h4>
+                            <p data-i18n="about.wifiDesc">안정적인 고속 인터넷 환경</p>
                         </div>
                         <div class="feature">
                             <i class="fas fa-coffee"></i>
-                            <h4>공용공간</h4>
-                            <p>커피, 시리얼 제공<br>정수기, 냉장고, 전자렌지</p>
+                            <h4 data-i18n="about.spaceTitle">공용공간</h4>
+                            <p data-i18n="about.spaceDesc">커피, 시리얼 제공<br>정수기, 냉장고, 전자렌지</p>
                         </div>
                         <div class="feature">
                             <i class="fas fa-print"></i>
-                            <h4>프린터</h4>
-                            <p>매월 정해진 양의<br>프린터 이용 제공</p>
+                            <h4 data-i18n="about.printTitle">프린터</h4>
+                            <p data-i18n="about.printDesc">매월 정해진 양의<br>프린터 이용 제공</p>
                         </div>
                     </div>
                 </div>
@@ -171,8 +175,8 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>업무 공간</h2>
-                <p>1·2·3·5인실부터 자유석·고정석까지 다양한 옵션</p>
+                <h2 data-i18n="services.title">업무 공간</h2>
+                <p data-i18n="services.subtitle">1·2·3·5인실부터 자유석·고정석까지 다양한 옵션</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -180,12 +184,12 @@
                         <img src="private-office.jpeg" alt="1,2,3,5인실">
                     </div>
                     <div class="service-content">
-                        <h3>1·2·3·5인실</h3>
-                        <p>팀 규모에 맞는 최적의 업무 공간</p>
+                        <h3 data-i18n="services.officeTitle">1·2·3·5인실</h3>
+                        <p data-i18n="services.officeDesc">팀 규모에 맞는 최적의 업무 공간</p>
                         <ul>
-                            <li>1인실·2인실·3인실·5인실</li>
-                            <li>전용 책상과 의자</li>
-                            <li>사물함(유료)</li>
+                            <li data-i18n="services.office1">1인실·2인실·3인실·5인실</li>
+                            <li data-i18n="services.office2">전용 책상과 의자</li>
+                            <li data-i18n="services.office3">사물함(유료)</li>
                         </ul>
                     </div>
                 </div>
@@ -194,12 +198,12 @@
                         <img src="shared-space.jpeg" alt="공용 공간">
                     </div>
                     <div class="service-content">
-                        <h3>자유석 & 고정석</h3>
-                        <p>유연한 업무 스타일에 맞는 선택</p>
+                        <h3 data-i18n="services.flexTitle">자유석 & 고정석</h3>
+                        <p data-i18n="services.flexDesc">유연한 업무 스타일에 맞는 선택</p>
                         <ul>
-                            <li>자유석: 유연한 좌석 선택</li>
-                            <li>고정석: 전용 좌석 보장</li>
-                            <li>24시간 출입 가능</li>
+                            <li data-i18n="services.flex1">자유석: 유연한 좌석 선택</li>
+                            <li data-i18n="services.flex2">고정석: 전용 좌석 보장</li>
+                            <li data-i18n="services.flex3">24시간 출입 가능</li>
                         </ul>
                     </div>
                 </div>
@@ -208,12 +212,12 @@
                         <img src="meeting-room.jpeg" alt="미팅룸">
                     </div>
                     <div class="service-content">
-                        <h3>미팅룸</h3>
-                        <p>프레젠테이션과 회의를 위한 전문 공간</p>
+                        <h3 data-i18n="services.meetingTitle">미팅룸</h3>
+                        <p data-i18n="services.meetingDesc">프레젠테이션과 회의를 위한 전문 공간</p>
                         <ul>
-                            <li>대형 스마트 TV 및 화이트보드</li>
-                            <li>자동 블라인드</li>
-                            <li>6인석 (10인 사용 가능)</li>
+                            <li data-i18n="services.meeting1">대형 스마트 TV 및 화이트보드</li>
+                            <li data-i18n="services.meeting2">자동 블라인드</li>
+                            <li data-i18n="services.meeting3">6인석 (10인 사용 가능)</li>
                         </ul>
                     </div>
                 </div>
@@ -225,39 +229,39 @@
     <section id="tenants" class="tenants">
         <div class="container">
             <div class="section-header">
-                <h2>입주 업체</h2>
-                <p>다양한 분야의 전문가들이 함께하는 창의적인 공간</p>
+                <h2 data-i18n="tenants.title">입주 업체</h2>
+                <p data-i18n="tenants.subtitle">다양한 분야의 전문가들이 함께하는 창의적인 공간</p>
             </div>
             <div class="tenants-grid">
                 <div class="tenant-category">
                     <i class="fas fa-balance-scale"></i>
-                    <h3>변호사 사무실</h3>
-                    <p>전문적인 법률 서비스</p>
+                    <h3 data-i18n="tenants.lawyer">변호사 사무실</h3>
+                    <p data-i18n="tenants.lawyerDesc">전문적인 법률 서비스</p>
                 </div>
                 <div class="tenant-category">
                     <i class="fas fa-building"></i>
-                    <h3>부동산</h3>
-                    <p>부동산 중개 및 컨설팅</p>
+                    <h3 data-i18n="tenants.realty">부동산</h3>
+                    <p data-i18n="tenants.realtyDesc">부동산 중개 및 컨설팅</p>
                 </div>
                 <div class="tenant-category">
                     <i class="fas fa-flask"></i>
-                    <h3>의학연구소</h3>
-                    <p>의학 연구 및 개발</p>
+                    <h3 data-i18n="tenants.medical">의학연구소</h3>
+                    <p data-i18n="tenants.medicalDesc">의학 연구 및 개발</p>
                 </div>
                 <div class="tenant-category">
                     <i class="fas fa-chart-line"></i>
-                    <h3>컨설팅 업체</h3>
-                    <p>비즈니스 컨설팅 서비스</p>
+                    <h3 data-i18n="tenants.consulting">컨설팅 업체</h3>
+                    <p data-i18n="tenants.consultingDesc">비즈니스 컨설팅 서비스</p>
                 </div>
                 <div class="tenant-category">
                     <i class="fas fa-video"></i>
-                    <h3>유튜버</h3>
-                    <p>콘텐츠 제작 및 편집</p>
+                    <h3 data-i18n="tenants.youtube">유튜버</h3>
+                    <p data-i18n="tenants.youtubeDesc">콘텐츠 제작 및 편집</p>
                 </div>
                 <div class="tenant-category">
                     <i class="fas fa-rocket"></i>
-                    <h3>스타트업</h3>
-                    <p>혁신적인 비즈니스 모델</p>
+                    <h3 data-i18n="tenants.startup">스타트업</h3>
+                    <p data-i18n="tenants.startupDesc">혁신적인 비즈니스 모델</p>
                 </div>
             </div>
         </div>
@@ -267,8 +271,8 @@
     <section id="gallery" class="gallery">
         <div class="container">
             <div class="section-header">
-                <h2>갤러리</h2>
-                <p>ILTER의 아름다운 공간을 둘러보세요</p>
+                <h2 data-i18n="gallery.title">갤러리</h2>
+                <p data-i18n="gallery.subtitle">ILTER의 아름다운 공간을 둘러보세요</p>
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
@@ -297,19 +301,19 @@
     <section id="location" class="location">
         <div class="container">
             <div class="section-header">
-                <h2>위치</h2>
-                <p>신촌역 6·7번 출구에서 도보 1분 거리에 위치해 있습니다</p>
+                <h2 data-i18n="location.title">위치</h2>
+                <p data-i18n="location.subtitle">신촌역 6·7번 출구에서 도보 1분 거리에 위치해 있습니다</p>
             </div>
             <div class="location-content">
                 <div class="location-info">
                     <div class="location-details">
-                        <h3>ILTER 공유오피스</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> 서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</p>
-                        <p><i class="fas fa-subway"></i> 2호선 신촌역 6·7번 출구 도보 1분</p>
+                        <h3 data-i18n="location.name">ILTER 공유오피스</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="location.address">서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</span></p>
+                        <p><i class="fas fa-subway"></i> <span data-i18n="location.subway">2호선 신촌역 6·7번 출구 도보 1분</span></p>
                         <p><i class="fas fa-phone"></i> 070-5038-0550</p>
                         <div class="location-buttons">
                             <a href="http://pf.kakao.com/_Shdhs/chat" target="_blank" class="btn btn-kakao">
-                                <i class="fas fa-comments"></i> 카카오톡 상담
+                                <i class="fas fa-comments"></i> <span data-i18n="location.kakao">카카오톡 상담</span>
                             </a>
                         </div>
                     </div>
@@ -325,51 +329,51 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>문의하기</h2>
-                <p>ILTER에 대해 궁금한 점이 있으시면 언제든 연락주세요</p>
+                <h2 data-i18n="contact.title">문의하기</h2>
+                <p data-i18n="contact.subtitle">ILTER에 대해 궁금한 점이 있으시면 언제든 연락주세요</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>주소</h4>
-                            <p>서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</p>
+                            <h4 data-i18n="contact.addressLabel">주소</h4>
+                            <p data-i18n="contact.address">서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>전화</h4>
+                            <h4 data-i18n="contact.phoneLabel">전화</h4>
                             <p>070-5038-0550</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-comments"></i>
                         <div>
-                            <h4>카카오톡</h4>
-                            <p>실시간 상담 가능</p>
+                            <h4 data-i18n="contact.kakaoLabel">카카오톡</h4>
+                            <p data-i18n="contact.kakaoDesc">실시간 상담 가능</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
-                            <h4>운영시간</h4>
-                            <p>연중무휴 24시간</p>
+                            <h4 data-i18n="contact.hoursLabel">운영시간</h4>
+                            <p data-i18n="contact.hours">연중무휴 24시간</p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-action">
                     <div class="contact-message">
-                        <h3>궁금한 점이 있으신가요?</h3>
-                        <p>카카오톡으로 편리하게 문의하실 수 있습니다.</p>
+                        <h3 data-i18n="contact.question">궁금한 점이 있으신가요?</h3>
+                        <p data-i18n="contact.questionDesc">카카오톡으로 편리하게 문의하실 수 있습니다.</p>
                     </div>
                     <div class="contact-buttons">
                         <a href="http://pf.kakao.com/_Shdhs/chat" target="_blank" class="btn btn-kakao">
-                            <i class="fas fa-comments"></i> 카카오톡 상담하기
+                            <i class="fas fa-comments"></i> <span data-i18n="contact.kakaoBtn">카카오톡 상담하기</span>
                         </a>
                         <a href="https://www.daangn.com/kr/local-profile/ywcnpnkqruzw/" target="_blank" class="btn btn-daangn">
-                            <i class="fas fa-store"></i> 당근에서 새로운 소식을 만나보세요!
+                            <i class="fas fa-store"></i> <span data-i18n="contact.daangnBtn">당근에서 새로운 소식을 만나보세요!</span>
                         </a>
                     </div>
                     <div class="contact-logo">
@@ -386,21 +390,21 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>ILTER</h3>
-                    <p>프리미엄 공유오피스로 여러분의 비즈니스를 성장시키세요.</p>
+                    <p data-i18n="footer.tagline">프리미엄 공유오피스로 여러분의 비즈니스를 성장시키세요.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>서비스</h4>
+                    <h4 data-i18n="footer.services">서비스</h4>
                     <ul>
-                        <li><a href="#services">개인 오피스</a></li>
-                        <li><a href="#services">공용 공간</a></li>
-                        <li><a href="#services">미팅룸</a></li>
+                        <li><a href="#services" data-i18n="footer.office">개인 오피스</a></li>
+                        <li><a href="#services" data-i18n="footer.space">공용 공간</a></li>
+                        <li><a href="#services" data-i18n="footer.meeting">미팅룸</a></li>
                     </ul>
                 </div>
-                                    <div class="footer-section">
-                        <h4>연락처</h4>
-                        <p>070-5038-0550</p>
-                        <p>서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</p>
-                    </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.contact">연락처</h4>
+                    <p>070-5038-0550</p>
+                    <p data-i18n="footer.address">서울시 마포구 백범로 8<br>우정마샹스 상가 2층 101호</p>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 ILTER. All rights reserved.</p>

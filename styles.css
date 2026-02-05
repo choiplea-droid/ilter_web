@@ -72,6 +72,39 @@ body {
     margin-left: 0.5rem;
 }
 
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-right: 1rem;
+}
+
+.lang-btn {
+    width: 40px;
+    height: 32px;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.lang-btn:hover {
+    transform: scale(1.08);
+    border-color: rgba(52, 152, 219, 0.5);
+}
+
+.lang-btn.active {
+    border-color: #3498db;
+    box-shadow: 0 0 0 1px #3498db;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
