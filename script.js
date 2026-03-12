@@ -9,7 +9,8 @@ const translations = {
         gallery: { title: '갤러리', subtitle: 'ILTER의 아름다운 공간을 둘러보세요' },
         location: { title: '위치', subtitle: '신촌역 6·7번 출구에서 도보 1분 거리에 위치해 있습니다', name: 'ILTER 공유오피스', address: '서울시 마포구 백범로 8\n우정마샹스 상가 2층 101호', subway: '2호선 신촌역 6·7번 출구 도보 1분', kakao: '카카오톡 상담' },
         contact: { title: '문의하기', subtitle: 'ILTER에 대해 궁금한 점이 있으시면 언제든 연락주세요', addressLabel: '주소', address: '서울시 마포구 백범로 8\n우정마샹스 상가 2층 101호', phoneLabel: '전화', kakaoLabel: '카카오톡', kakaoDesc: '실시간 상담 가능', hoursLabel: '운영시간', hours: '연중무휴 24시간', question: '궁금한 점이 있으신가요?', questionDesc: '카카오톡으로 편리하게 문의하실 수 있습니다.', kakaoBtn: '카카오톡 상담하기', daangnBtn: '당근에서 새로운 소식을 만나보세요!' },
-        footer: { tagline: '프리미엄 공유오피스로 여러분의 비즈니스를 성장시키세요.', services: '서비스', office: '개인 오피스', space: '공용 공간', meeting: '미팅룸', contact: '연락처', address: '서울시 마포구 백범로 8\n우정마샹스 상가 2층 101호' }
+        footer: { tagline: '프리미엄 공유오피스로 여러분의 비즈니스를 성장시키세요.', services: '서비스', office: '개인 오피스', space: '공용 공간', meeting: '미팅룸', contact: '연락처', address: '서울시 마포구 백범로 8\n우정마샹스 상가 2층 101호' },
+        floatingTalk: { label: '카톡 문의' }
     },
     en: {
         nav: { subtitle: 'Coworking', home: 'Home', about: 'About', services: 'Workspaces', tenants: 'Tenants', gallery: 'Gallery', location: 'Location', contact: 'Contact' },
@@ -20,7 +21,8 @@ const translations = {
         gallery: { title: 'Gallery', subtitle: 'Take a look around ILTER' },
         location: { title: 'Location', subtitle: '1 minute on foot from Sinchon Station Exit 6·7', name: 'ILTER Coworking', address: '8 Baekbeom-ro, Mapo-gu, Seoul\nRoom 101, 2F, Woojeong Mashangs', subway: 'Subway Line 2 Sinchon Station Exit 6·7, 1 min walk', kakao: 'KakaoTalk Chat' },
         contact: { title: 'Contact', subtitle: 'Get in touch anytime with questions about ILTER', addressLabel: 'Address', address: '8 Baekbeom-ro, Mapo-gu, Seoul\nRoom 101, 2F, Woojeong Mashangs', phoneLabel: 'Phone', kakaoLabel: 'KakaoTalk', kakaoDesc: 'Real-time chat support', hoursLabel: 'Hours', hours: '24/7 year-round', question: 'Have questions?', questionDesc: 'Reach us easily via KakaoTalk.', kakaoBtn: 'Chat on KakaoTalk', daangnBtn: 'See our latest on Karrot!' },
-        footer: { tagline: 'Grow your business at our premium coworking space.', services: 'Services', office: 'Private Office', space: 'Shared Space', meeting: 'Meeting Room', contact: 'Contact', address: '8 Baekbeom-ro, Mapo-gu, Seoul\nRoom 101, 2F, Woojeong Mashangs' }
+        footer: { tagline: 'Grow your business at our premium coworking space.', services: 'Services', office: 'Private Office', space: 'Shared Space', meeting: 'Meeting Room', contact: 'Contact', address: '8 Baekbeom-ro, Mapo-gu, Seoul\nRoom 101, 2F, Woojeong Mashangs' },
+        floatingTalk: { label: 'KakaoTalk' }
     },
     zh: {
         nav: { subtitle: '共享办公', home: '首页', about: '介绍', services: '办公空间', tenants: '入驻企业', gallery: '图集', location: '位置', contact: '咨询' },
@@ -31,7 +33,8 @@ const translations = {
         gallery: { title: '图集', subtitle: '一起看看 ILTER 的空间' },
         location: { title: '位置', subtitle: '距离新村站 6/7 号出口步行 1 分钟', name: 'ILTER 共享办公', address: '首尔特别市 麻浦区 白凡路 8\n友谊马尚斯 商街 2层 101号', subway: '地铁 2 号线 新村站 6/7 号出口步行 1 分钟', kakao: 'KakaoTalk 咨询' },
         contact: { title: '咨询', subtitle: '如对 ILTER 有任何疑问，欢迎随时联系', addressLabel: '地址', address: '首尔特别市 麻浦区 白凡路 8\n友谊马尚斯 商街 2层 101号', phoneLabel: '电话', kakaoLabel: 'KakaoTalk', kakaoDesc: '支持实时咨询', hoursLabel: '营业时间', hours: '全年无休 24 小时', question: '有问题想问吗？', questionDesc: '可通过 KakaoTalk 便捷咨询。', kakaoBtn: '在 KakaoTalk 咨询', daangnBtn: '在 Karrot 查看最新动态！' },
-        footer: { tagline: '在高品质共享办公空间助力你的事业成长。', services: '服务', office: '独立办公室', space: '共享空间', meeting: '会议室', contact: '联系方式', address: '首尔特别市 麻浦区 白凡路 8\n友谊马尚斯 商街 2层 101号' }
+        footer: { tagline: '在高品质共享办公空间助力你的事业成长。', services: '服务', office: '独立办公室', space: '共享空间', meeting: '会议室', contact: '联系方式', address: '首尔特别市 麻浦区 白凡路 8\n友谊马尚斯 商街 2层 101号' },
+        floatingTalk: { label: 'Kakao咨询' }
     },
     ja: {
         nav: { subtitle: 'コワーキング', home: 'ホーム', about: '紹介', services: 'ワークスペース', tenants: '入居企業', gallery: 'ギャラリー', location: 'アクセス', contact: 'お問い合わせ' },
@@ -42,7 +45,8 @@ const translations = {
         gallery: { title: 'ギャラリー', subtitle: 'ILTERの空間をご覧ください' },
         location: { title: 'アクセス', subtitle: '新村駅6・7番出口から徒歩1分', name: 'ILTER コワーキング', address: 'ソウル特別市 麻浦区 白凡路8\nウジョンマシャンス商街 2階 101号', subway: '地下鉄2号線 新村駅 6・7番出口 徒歩1分', kakao: 'KakaoTalk 相談' },
         contact: { title: 'お問い合わせ', subtitle: 'ILTERについてのご質問はお気軽にご連絡ください', addressLabel: '住所', address: 'ソウル特別市 麻浦区 白凡路8\nウジョンマシャンス商街 2階 101号', phoneLabel: '電話', kakaoLabel: 'KakaoTalk', kakaoDesc: 'リアルタイム相談可能', hoursLabel: '営業時間', hours: '年中無休24時間', question: 'ご不明点はありますか？', questionDesc: 'KakaoTalkで便利にお問い合わせいただけます。', kakaoBtn: 'KakaoTalkで相談する', daangnBtn: 'Karrotで最新情報を見る！' },
-        footer: { tagline: 'プレミアムなコワーキングでビジネスを成長させましょう。', services: 'サービス', office: '個室オフィス', space: '共用スペース', meeting: 'ミーティングルーム', contact: '連絡先', address: 'ソウル特別市 麻浦区 白凡路8\nウジョンマシャンス商街 2階 101号' }
+        footer: { tagline: 'プレミアムなコワーキングでビジネスを成長させましょう。', services: 'サービス', office: '個室オフィス', space: '共用スペース', meeting: 'ミーティングルーム', contact: '連絡先', address: 'ソウル特別市 麻浦区 白凡路8\nウジョンマシャンス商街 2階 101号' },
+        floatingTalk: { label: 'カカオ相談' }
     }
 };
 
